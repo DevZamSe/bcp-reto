@@ -1,7 +1,7 @@
 FROM java:8
 
-COPY /target/tipo_cambio.jar tipo_cambio.jar
+COPY /target/tipo-cambio.jar tipo-cambio.jar
 
 EXPOSE 80
 
-ENTRYPOINT ["java", "-jar", "tipo_cambio.jar"]
+ENTRYPOINT ["java", "-jar", "tipo-cambio.jar"]

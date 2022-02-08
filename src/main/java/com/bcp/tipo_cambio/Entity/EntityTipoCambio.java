@@ -21,7 +21,7 @@ public class EntityTipoCambio implements Serializable {
     @Column(name="MONEDA_DESTINO")
     private String monedaDestino;
 
-    @Column(name="TIPO_CAMBIO")
+    @Column(name="TIPO_CAMBIO", scale = 2, precision = 2)
     private double tipoCambio;
 
 

@@ -6,6 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface TipoCambioDao extends JpaRepository<EntityTipoCambio, Long> {
-
         public EntityTipoCambio findByMonedaOrigenAndMonedaDestino(String monedaOrigen, String monedaDestino);
 }
